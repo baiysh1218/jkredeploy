@@ -1,0 +1,50 @@
+.mission_values_wrapper {
+  width: 90%;
+  margin: auto;
+  position: relative;
+}
+.mission_values_content {
+  width: 90%;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 50px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.mission_extra_content {
+  width: 50%;
+  position: relative;
+  top: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: end;
+  gap: 50px;
+}
+.mission_extra_content p {
+  text-align: end;
+}
+.mission_values_image_wrapper {
+  width: 100vw;
+  margin-left: -72px;
+}
+.mission_values_image_wrapper img {
+  width: 100%;
+  margin-left: 0;
+}
+.mission_values_content {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  margin-top: 50px;
+  justify-content: space-between;
+  width: 95%;
+}
+.mission_values_content h5 {
+  font-size: 36px;
+}
+.mission_values_content h6 {
+  font-size: 32px;
+}

@@ -1,0 +1,206 @@
+.form_connect_main_wrapper {
+  position: relative;
+  z-index: 5;
+  height: auto;
+  background-color: #f2f2f2;
+  margin-bottom: 5%;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 10%;
+  top: 95px;
+}
+
+.form_connect_wrapper {
+  /* padding-top: 10%; */
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 300px;
+  height: auto;
+}
+
+.form_inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.form_input_wrapper {
+  width: 100%;
+  display: flex;
+
+  align-items: center;
+  text-align: center;
+  gap: 50px;
+}
+
+.form_input_wrapper input {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  border-bottom: 1.5px solid black;
+  height: 40px;
+  padding: 0;
+  font-size: 23px;
+  margin-bottom: 4%;
+}
+
+.form_input_wrapper input:nth-child(1),
+.form_input_wrapper input:nth-child(2),
+.form_input_wrapper input:nth-child(3) {
+  margin-right: 10px;
+}
+
+.form_input_wrapper select {
+  width: 100%;
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  border-bottom: 1.5px solid black;
+  height: 40px;
+  padding: 0;
+  font-size: 23px;
+  margin-bottom: 4%;
+  /* appearance: none; */
+}
+
+.form_input_wrapper select option {
+  background-color: #f2f2f2;
+  border: none;
+}
+
+.form_input_wrapper select option:hover {
+  background-color: #9a9a9a;
+}
+
+.form_input_wrapper select option:checked {
+  background-color: #92bd59;
+}
+
+.form_input_wrapper select:focus {
+  outline: none;
+  background-color: transparent;
+}
+
+.select_agreement {
+  margin-top: 2%;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 50px;
+}
+.select_agreement p {
+  text-align: left;
+}
+
+.header_form_connect {
+  display: flex;
+  align-items: center;
+  width: 75%;
+  justify-content: space-between;
+}
+
+.header_form_connect h4 {
+  font-size: 32px;
+}
+
+.inputs_form {
+  width: 88%;
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+}
+
+input[type="checkbox"]::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  /* margin: 3px; */
+  /* background-color: #f2f2f2; */
+  border-radius: 2px;
+  transition: background-color 0.3s ease;
+}
+
+input[type="checkbox"]:checked::before {
+  content: "";
+  border-color: #1b1b1d;
+  background-color: #1b1b1d;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+  background-size: 16px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.select_agreement_button_wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 50px;
+}
+
+.select_agreement_button_wrapper button {
+  width: 140px;
+  height: 40px;
+  background-color: #1d1d1b;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.PhoneInput {
+  min-width: 100%;
+}
+
+.PhoneInputCountry {
+  height: 70%;
+}
+.form_connect_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 30px;
+  height: 525px;
+}
+
+.form_connect_content p {
+  text-align: left;
+}
+
+.form_connect_content h3 {
+  font-size: 32px;
+}
+
+/* FormConnect.css */
+.header_form_connect {
+  margin: 50px;
+}
+
+.header_form_connect h3 {
+  font-size: 32px;
+}
+
+.Phone {
+  height: 13px;
+}
+.PhoneInputCountry {
+  margin-top: 11px;
+}

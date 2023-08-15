@@ -1,0 +1,89 @@
+#carousel_company_swiper {
+  width: 90%;
+  margin: auto;
+  /* margin-top: 250px; */
+  margin-bottom: 150px;
+}
+
+.carousel_img_wrapper {
+  width: 40%;
+}
+
+.content_carousel p:nth-child(2) {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.carousel_wrapper_items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#carousel_company_swiper {
+  width: 100%; /* Change width to 100% for full width */
+  margin: auto;
+  margin-bottom: 150px;
+}
+
+.carousel_wrapper_item {
+  width: 100%;
+  /* margin: auto; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; /* Add some padding for better spacing */
+}
+
+.carousel_img_wrapper {
+  width: 100%;
+  flex-shrink: 0; /* Prevent image from shrinking */
+  /* position: relative; */
+  left: -57px;
+  width: 785px;
+  left: -390px;
+}
+
+.content_carousel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 50px;
+  max-width: 485px;
+  /* margin-left: -86%; */
+  top: 8%;
+  position: absolute;
+  left: 30px;
+  color: white;
+}
+
+.content_carousel p {
+  text-align: left;
+  color: white;
+}
+.content_carousel p * {
+  text-align: left;
+  color: white !important;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.content_carousel h2 {
+  margin-bottom: 10px; /* Adjust margin for heading */
+}
+
+.content_carousel p {
+  margin-bottom: 15px; /* Adjust margin for paragraphs */
+  font-size: 18px; /* Reduce font size for better readability */
+  line-height: 1.4; /* Improve line height for better spacing */
+}

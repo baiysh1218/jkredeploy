@@ -1,0 +1,23 @@
+.about_wrapper_img {
+  width: 100%;
+  height: 820px;
+  position: relative;
+  overflow: hidden;
+}
+
+.about_wrapper_img img {
+  width: 1583px;
+  height: auto; /* Adjust the height automatically based on the width */
+  position: absolute;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: brightness(0.5);
+  z-index: 0;
+}
+
+.about_wrapper_img * {
+  z-index: 5;
+  color: white;
+  text-align: end;
+}

@@ -1,0 +1,72 @@
+body {
+  background-color: #f1f2f2;
+}
+#root {
+  background-color: #f2f2f2;
+}
+html {
+  background-color: #f2f2f2;
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: Gilroy;
+  src: url(./assets/fonts/Gilroy-Bold.ttf);
+  font-weight: bold;
+  unicode-range: U+0400-04FF; /* Диапазон символов кириллицы */
+}
+@font-face {
+  font-family: Gilroy;
+  src: url(./assets/fonts/Gilroy-Extrabold.ttf);
+  font-weight: 800;
+  unicode-range: U+0400-04FF; /* Диапазон символов кириллицы */
+}
+@font-face {
+  font-family: Gilroy;
+  src: url(./assets/fonts/Gilroy-Heavy.ttf);
+  font-weight: 900;
+  unicode-range: U+0400-04FF; /* Диапазон символов кириллицы */
+}
+@font-face {
+  font-family: Gilroy;
+  src: url(./assets/fonts/Gilroy-Regular.ttf);
+  unicode-range: U+0400-04FF; /* Диапазон символов кириллицы */
+}
+
+@font-face {
+  font-family: Gilroy;
+  src: url(./assets/fonts/Gilroy-Semibold.ttf);
+  font-weight: 600;
+  unicode-range: U+0400-04FF; /* Диапазон символов кириллицы */
+}
+@font-face {
+  font-family: Gilroy;
+  src: url(./assets/fonts/Gilroy-Thin.ttf);
+  font-weight: 200;
+  unicode-range: U+0400-04FF; /* Диапазон символов кириллицы */
+}
+@font-face {
+  font-family: Gilroy;
+  src: url(./assets/fonts/Gilroy-UltraLight.ttf);
+  font-weight: 100;
+  unicode-range: U+0400-04FF; /* Диапазон символов кириллицы */
+}
+
+body {
+  overflow-x: hidden;
+}
+
+* {
+  user-select: none;
+  font-family: "Montserrat", sans-serif !important;
+  cursor: default;
+}
+
+p {
+  text-align: center;
+  font-size: 20px !important;
+}
+
+img {
+  image-rendering: optimizeQuality;
+}

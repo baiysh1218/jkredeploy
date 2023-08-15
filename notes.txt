@@ -1,0 +1,1 @@
+json(category, id) -> obj =  {galery: '/category/', news: '/news/'} -> for(json) -> Link(obj[json.category]/json.id)

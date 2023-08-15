@@ -1,0 +1,106 @@
+{
+  "language": "ru",
+
+  "dropDownContent": [
+    {
+      "title": "О нас",
+      "content": {
+        "contentTitle": [{ "title": "О НАС", "path": "/about", "id": 1 }],
+        "contentItem": [
+          [
+            { "item": "История компании", "path": "/about/history" },
+            { "item": "Миссия и ценности", "path": "/about/mission-values" },
+            { "item": "Партнеры", "path": "/about/partners" }
+          ],
+          [
+            {
+              "item": "3D проектирование (BIM)",
+              "path": "/project/section",
+              "const": "3D проектирование (BIM)",
+              "id": 1
+            },
+            {
+              "item": "Производство и монтаж вентиляционного оборудования",
+              "path": "/project/section",
+              "const": "Производство и монтаж вентиляционного оборудования",
+              "id": 2
+            },
+            {
+              "item": "Учебный центр по стандартам TPS",
+              "path": "/project/section",
+              "const": "Учебный центр по стандартам TPS",
+              "id": 3
+            }
+          ],
+          [
+            {
+              "item": "Строительство",
+              "path": "/team/section",
+              "const": "Строительство"
+            }
+          ],
+          [
+            {
+              "item": "Международная логистика",
+              "path": "/team/section",
+              "const": "Международная логистика",
+              "id": 4
+            }
+          ],
+          [
+            {
+              "item": "Высокоточная металлообработка",
+              "path": "/team/section",
+              "const": "Высокоточная металлообработка"
+            }
+          ]
+        ]
+      },
+      "id": 1
+    }
+  ],
+  "contentTitle": "О нас",
+  "history": "История компании",
+  "mission": "Миссия и ценности",
+  "partners": "Партнеры",
+  "navbar": {
+    "projects": "Проекты",
+    "team": "Команда",
+    "news": "Новости",
+    "career": "Карьера",
+    "search": "Поиск",
+    "contacts": "Контакты",
+    "searchContent": "Загрузка..."
+  },
+  "statistics": {
+    "sub_title": "Уникальность и технологичность"
+  },
+  "connect": {
+    "name": "Имя",
+    "email": "Электронная почта",
+    "question": "Вопрос",
+    "destinations": "Выберите направления"
+  },
+  "career": {
+    "vacancies": "Вакансии",
+    "more": "Оставить резюме",
+    "resume": "Резюме"
+  },
+  "projects": "Подробнее...",
+  "resume": "Кликните что бы загрузить резюме",
+  "successResume": "Ваше резюме успешно было отправлено",
+  "rejectedResume": "Ошибка при отправке файла",
+  "years": "Год",
+  "formConnect": "Форма обратной связи",
+  "submit": "Отправить",
+  "line": "Направлении",
+  "employees": "Сотрудников",
+  "pr": "Проектов",
+  "LinesOfBusiness": "Направления деятельности",
+  "footer": {
+    "line": "Направления",
+    "projects": "Проекты",
+    "shortCusts": "Соц сети",
+    "back": "Вернутся в начало"
+  }
+}

@@ -1,0 +1,103 @@
+.custom-swiper-left {
+  position: relative;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.custom-swiper-left h3 {
+  text-align: left;
+}
+
+.custom-img-content-wrapper {
+  width: 100%;
+}
+
+.custom-img-content-wrapper img {
+  position: static;
+  width: 100%;
+}
+
+.custom-swiper-slide {
+  width: 100% !important;
+  display: flex !important;
+  justify-content: flex-start !important;
+}
+
+.custom-swiper-content {
+  width: 385px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: auto;
+  position: relative;
+}
+
+.swiper_team_wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  gap: 50px;
+}
+
+.custom-tab.is-active {
+  height: auto;
+}
+
+.custom-swiper-content button {
+  font-size: 43px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.custom-swiper-content h3,
+.custom-swiper-content p {
+  word-wrap: break-word;
+  text-align: left;
+}
+
+.team_dropdown.close {
+  position: absolute;
+  animation: closeTeamOpen 0.3s linear;
+  display: none;
+}
+
+@keyframes closeTeamOpen {
+  from {
+    height: 150px;
+  }
+  to {
+    height: 0;
+  }
+}
+
+.team_dropdown.active {
+  position: absolute;
+  display: block;
+  animation: OpenTeamOpen 0.3s linear;
+  word-wrap: break-word;
+  height: auto;
+  height: 250px;
+  overflow: scroll;
+}
+
+.team_dropdown.active p {
+  height: 700px;
+}
+
+@keyframes OpenTeamOpen {
+  from {
+    height: 0;
+  }
+  to {
+    height: 150px;
+  }
+}
+.team_nav_link {
+  margin-bottom: 15px;
+}

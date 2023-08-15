@@ -1,0 +1,132 @@
+.products_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.search_button {
+  background-color: #231f20;
+  color: #f1f2f2;
+  border: none;
+  width: 7%;
+  font-size: 23px;
+}
+.search_icon {
+  display: flex;
+  justify-content: space-evenly;
+  padding-right: 20px;
+  align-items: center;
+  background-color: #e1deda;
+  width: 25%;
+  height: 50px;
+  margin-right: 1%;
+}
+.search_form {
+  display: flex;
+  width: 100%;
+}
+
+.search_icon input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin-left: 10%;
+  font-size: 23px;
+  width: 100%;
+}
+
+.search_icon input:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+
+.search_icon img {
+  width: 30px;
+  height: 30px;
+}
+
+.search_wrapper {
+  display: flex;
+  /* width: 120%; */
+  margin: 5%;
+  margin-left: 2%;
+}
+.card {
+  width: 30%;
+  height: 345px;
+  margin: 5% 2%;
+}
+
+.card_img_wrapper {
+  position: absolute;
+  z-index: 99;
+  top: -11%;
+}
+
+.card_img_wrapper img {
+  width: 33%;
+}
+.projects_main_wrapper {
+  background-color: #f2f2f2;
+  width: 90%;
+  margin: auto;
+}
+
+.filterd_button {
+  width: 90%;
+  margin: 2% auto 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 40px;
+}
+.filterd_button button {
+  background-color: transparent;
+  width: auto;
+  height: 35px;
+  border: none;
+  font-size: 22px;
+}
+
+.line {
+  background-color: black;
+  width: 1px;
+}
+
+.details_img_wrapper {
+  width: 100%;
+  margin: auto;
+  height: 600px;
+  overflow: hidden;
+  position: relative;
+}
+
+.details_img_wrapper img {
+  width: 100%;
+}
+
+.details_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 23px;
+  gap: 50px;
+  width: 90%;
+  margin: 50px auto 0;
+}
+.details_content p {
+  text-align: center;
+}
+
+.details_content h3 {
+  font-size: 52px;
+}
+
+.filterd_button .projects_active {
+  border-bottom: 2px solid black;
+  transition: 0.3s;
+}
+.projects_res {
+  transition: 0.3s;
+  border-bottom: 2px solid #f2f2f2;
+}

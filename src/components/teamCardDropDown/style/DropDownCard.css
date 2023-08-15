@@ -1,0 +1,137 @@
+.dropdown_content_team_card {
+  height: 366px;
+  background-color: white;
+  overflow: hidden;
+  position: static;
+  width: 100%;
+  margin: 30px auto 0;
+  left: 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 26px;
+  padding-top: 10px;
+  top: 550px;
+}
+
+.dropdown_content_team_card.closing {
+  transition: all 0.3s ease;
+}
+
+.dropdown_content_item_card ul {
+  width: 100%;
+}
+
+.custom-swiper-content:nth-child(3n + 1) .dropdown_content_team_card.open {
+  width: 1270px;
+  top: 97%;
+  height: 366px;
+  gap: 45px;
+  padding: 96px;
+  overflow: hidden;
+  animation: dropDownOpenCard 0.3s ease-in-out;
+  z-index: 10;
+  left: 100%;
+  transform: translateX(0%);
+  display: flex;
+  flex-direction: row;
+  margin-top: 0;
+}
+
+.custom-swiper-content:nth-child(3n + 2) .dropdown_content_team_card.open {
+  width: 1270px;
+  top: 97%;
+  height: 366px;
+  gap: 0;
+  padding: 96px;
+  overflow: hidden;
+  animation: dropDownOpenCard 0.3s ease-in-out;
+  z-index: 10;
+  transform: translateX(-34.5%);
+  left: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 0;
+}
+.custom-swiper-content:nth-child(3n + 3) .dropdown_content_team_card.open {
+  width: 1270px;
+  top: 97%;
+  height: 366px;
+  gap: 45px;
+  padding: 96px;
+  overflow: hidden;
+  animation: dropDownOpenCard 0.3s ease-in-out;
+  z-index: 10;
+  transform: translateX(-68.5%);
+  left: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 0;
+}
+@keyframes dropDownOpenCard {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 366px;
+  }
+}
+
+.custom-swiper-content:nth-child(3n + 1) .dropdown_content_team_card.closing {
+  animation: dropDownCloseCard1 0.3s ease-in-out;
+  height: 0;
+  width: 1307px;
+  transform: translateX(0%);
+}
+
+@keyframes dropDownCloseCard1 {
+  0% {
+    height: 366px;
+    width: 1307px;
+  }
+  100% {
+    height: 0px;
+    width: 1307px;
+  }
+}
+
+.custom-swiper-content:nth-child(3n + 2) .dropdown_content_team_card.closing {
+  animation: dropDownCloseCard2 0.3s ease-in-out;
+  height: 0;
+  width: 1307px;
+  transform: translateX(-33.5%);
+}
+
+@keyframes dropDownCloseCard2 {
+  0% {
+    height: 366px;
+    width: 1307px;
+    transform: translateX(-33.5%);
+  }
+  100% {
+    height: 0px;
+    width: 1307px;
+    transform: translateX(-33.5%);
+  }
+}
+
+.custom-swiper-content:nth-child(3n + 3) .dropdown_content_team_card.closing {
+  animation: dropDownCloseCard3 0.3s ease-in-out;
+  height: 0;
+  width: 1307px;
+  transform: translateX(-66.8%);
+}
+
+@keyframes dropDownCloseCard3 {
+  0% {
+    height: 366px;
+    width: 1307px;
+    transform: translateX(-66.8%);
+  }
+  100% {
+    height: 0px;
+    width: 1307px;
+    transform: translateX(-66.8%);
+  }
+}
